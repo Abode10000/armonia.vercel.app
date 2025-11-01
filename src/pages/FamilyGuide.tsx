@@ -341,7 +341,7 @@ const FamilyGuide = () => {
           </p>
 
           <label className="block text-sm font-medium text-[#2D3748]">
-            كيف يتفاعل مع الأصوات؟
+            كيف يتفاعل ابنكم أو الفرد الذي ترعونه مع الأصوات؟
             <select
               name="sound"
               value={responses.sound}
@@ -358,7 +358,7 @@ const FamilyGuide = () => {
           </label>
 
           <label className="block text-sm font-medium text-[#2D3748]">
-            هل يحب اللمس أم يتجنبه؟
+            كيف يتعامل مع اللمس أو الاتصال الجسدي؟
             <select
               name="touch"
               value={responses.touch}
@@ -375,7 +375,7 @@ const FamilyGuide = () => {
           </label>
 
           <label className="block text-sm font-medium text-[#2D3748]">
-            هل يتضايق من الضوء أو الألوان؟
+            كيف يتفاعل مع الضوء أو الألوان في البيئة؟
             <select
               name="light"
               value={responses.light}
@@ -395,7 +395,7 @@ const FamilyGuide = () => {
             name="activities"
             value={responses.activities}
             onChange={handleChange}
-            placeholder="ما الأنشطة التي يفضلها؟ اذكر ألعاب أو حركات يحبها."
+            placeholder="اذكر الأنشطة أو الألعاب التي يفضلها الفرد أو يستمتع بها."
             className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#0A6D8B]"
             rows={3}
           />
