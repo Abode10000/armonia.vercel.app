@@ -395,7 +395,7 @@ const FamilyGuide = () => {
             name="activities"
             value={responses.activities}
             onChange={handleChange}
-            placeholder="اذكر الأنشطة أو الألعاب التي يفضلها الفرد أو يستمتع بها."
+            placeholder="ايش الأنشطة أو الألعاب اللي تلاحظون إنها تفرحه أو تريحه؟"
             className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#0A6D8B]"
             rows={3}
           />
